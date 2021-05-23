@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Zen+Dots&display=swap');
+
+*{
+    font-family: 'Orelega One', cursive;
+    font-family: 'Zen Dots', cursive;
+
+}
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fbe9e7; 
+}
+.project-game-random-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-title {
+    width: 1520px;
+    position: absolute;
+    height: auto;
+    background: rgb(71, 91, 91);
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.centerText {
+    display: grid;
+    justify-content: center;
+    color: #868686;
+}
+.game-alert {
+    font-size: 20px;
+}
+h2.alert-h2 {
+    text-align: center;
+}
+.color-code.centerText {
+    color: #ff9494;
+}
+h1.alert-h2 {
+    font-size: 40px;
+}
+.game-multimedia {
+    position: absolute;
+    display: flex;
+    top: 27.4%;
+    height: auto;
+    background: aliceblue;
+    width: 100%;
+    left: 0;
+    /* display: none; */
+}
+.newGame {
+    margin-left: 20%;
+    /* background: red; */
+    padding: 3px 5px;
+    font-size: 13px;
+    color: #444;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.newGame:hover{
+    border: 1px solid white;
+    background: rgb(198, 255, 255);
+}
+span.number {
+    font-size: 60px;
+    margin-left: 35%;
+}
+.easyGame {
+    margin-left: 35%;
+    font-size: 13px;
+    padding: 3px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.easyGame:hover{
+    border: 1px solid white;
+    background: rgb(198, 255, 255);
+
+}
+.limited-number {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    background: darkred;
+    padding: 1rem 2rem;
+    border: 2px solid powderblue;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 150px;
+    align-items: center;
+}
+.difficultGame {
+    padding: 3px 5px;
+    font-size: 13px;
+    margin-left: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+    /* display: none; */
+}
+.difficultGame:hover{
+    border: 1px solid white;
+    background: rgb(198, 255, 255);
+
+}
+.blockColor {
+    position: relative;
+    width: 57%;
+    height: auto;
+    left: 25%;
+    margin-top: 18%;
+    /* display: flex; */
+    justify-content: center;
+    transition: 0.5s;
+    /* background: aliceblue; */
+}
+.box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* width: 30px; */
+    height: 30px;
+    padding: 70px;
+    background: yellowgreen;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.75s;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.up {
+    margin-top: 20px;
+}
+.game-blockColor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
